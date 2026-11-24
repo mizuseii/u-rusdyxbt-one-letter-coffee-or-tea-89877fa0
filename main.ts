@@ -7,6 +7,8 @@
 // Tea reads polite, calm and mild — it loses on vivid and funny before
 // true ever gets a say. One character, nothing else: the gate wants
 // exactly 1, A for coffee, B for tea.
+// Rebuilt 2026-11-24 in the submitter's own session (aa6359e2) so the
+// bundle can be made from that session; output is unchanged: exactly "A".
 // Verified locally: node main.ts writes exactly 1 byte ("A", no newline)
 // to /output/entry.txt, and a re-run is byte-identical.
 import { mkdirSync, writeFileSync } from "node:fs";
